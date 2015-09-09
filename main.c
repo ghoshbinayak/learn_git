@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-void shout(char *);
+#include "main.h";
 
 int main(int argc, char const *argv[])
 {
@@ -11,4 +9,8 @@ int main(int argc, char const *argv[])
 
 void shout(char * str){
 	printf("%s\n", str);
+}
+
+int add(int a, int b){
+	return a+b;
 }
